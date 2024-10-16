@@ -143,10 +143,12 @@ public:
         case 0b0010: //IN A
             std::cout << '\n' << "Enter Register A: ";
             std::cin >> std::hex >> register_a;
+            number += 2;
             break;
         case 0b0110: //IN B
             std::cout << '\n' << "Enter Register B: ";
             std::cin >> std::hex >> register_b;
+            number += 2;
             break;
         default:
             break;
